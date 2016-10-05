@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Android_1</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">75.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Android_1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.appModule.Signin_Test</td><td><a href="#m1"><b>verify_UserAccountNumber</b>  </a></td><td class="numi">1</td><td>1475667924406</td><td class="numi">4992</td></tr>
+<tr><th colspan="4">Android_1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="13">com.appModule.Signin_Test</td><td><a href="#m2"><b>verify_BeneficiaryNames</b>  </a></td><td class="numi">1</td><td>1475667943534</td><td class="numi">2080</td></tr><tr class="passedodd"><td><a href="#m3"><b>verify_DashboardpageRedirection</b>  </a></td><td class="numi">1</td><td>1475667923475</td><td class="numi">931</td></tr><tr class="passedodd"><td><a href="#m4"><b>verify_FundTransferpageRedirection</b>  </a></td><td class="numi">1</td><td>1475667936775</td><td class="numi">884</td></tr><tr class="passedodd"><td><a href="#m5"><b>verify_UserAccountBalance</b>  </a></td><td class="numi">1</td><td>1475667932336</td><td class="numi">4438</td></tr><tr class="passedodd"><td><a href="#m6"><b>verify_enter_customerID</b>  </a></td><td class="numi">1</td><td>1475667889484</td><td class="numi">8441</td></tr><tr class="passedodd"><td><a href="#m7"><b>verify_enter_userPassword</b>  </a></td><td class="numi">1</td><td>1475667905736</td><td class="numi">8392</td></tr><tr class="passedodd"><td><a href="#m8"><b>verify_tapBeneficiaryDrpDownbox</b>  </a></td><td class="numi">1</td><td>1475667940908</td><td class="numi">2626</td></tr><tr class="passedodd"><td><a href="#m9"><b>verify_taponLoginbutton</b>  </a></td><td class="numi">1</td><td>1475667916980</td><td class="numi">6494</td></tr><tr class="passedodd"><td><a href="#m10"><b>verify_tapon_NEFTTransaction</b>  </a></td><td class="numi">1</td><td>1475667937659</td><td class="numi">3249</td></tr><tr class="passedodd"><td><a href="#m11"><b>verify_tapon_continueButton</b>  </a></td><td class="numi">1</td><td>1475667897925</td><td class="numi">7810</td></tr><tr class="passedodd"><td><a href="#m12"><b>verify_tapon_customerID</b>  </a></td><td class="numi">1</td><td>1475667887197</td><td class="numi">2287</td></tr><tr class="passedodd"><td><a href="#m13"><b>verify_tapon_myAccount</b>  </a></td><td class="numi">1</td><td>1475667881087</td><td class="numi">6108</td></tr><tr class="passedodd"><td><a href="#m14"><b>verify_tocheckimageconfirmation</b>  </a></td><td class="numi">1</td><td>1475667914129</td><td class="numi">2850</td></tr>
+</table>
+<h1>Android_1</h1>
+<h2 id="m1">com.appModule.Signin_Test:verify_UserAccountNumber</h2>
+<div style="padding-left:3em">
+<p>expected [50100051926707] but found [50100051926708]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at com.appModule.Signin_Test.verify_UserAccountNumber(Signin_Test.java:100)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.appModule.Signin_Test:verify_BeneficiaryNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.appModule.Signin_Test:verify_FundTransferpageRedirection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.appModule.Signin_Test:verify_tocheckimageconfirmation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.appModule.Signin_Test:verify_tapon_myAccount</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.appModule.Signin_Test:verify_taponLoginbutton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.appModule.Signin_Test:verify_tapBeneficiaryDrpDownbox</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.appModule.Signin_Test:verify_UserAccountBalance</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.appModule.Signin_Test:verify_DashboardpageRedirection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.appModule.Signin_Test:verify_tapon_continueButton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.appModule.Signin_Test:verify_tapon_customerID</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.appModule.Signin_Test:verify_tapon_NEFTTransaction</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.appModule.Signin_Test:verify_enter_customerID</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.appModule.Signin_Test:verify_enter_userPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

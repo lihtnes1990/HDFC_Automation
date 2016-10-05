@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.appModule.Signin_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_FundTransferpageRedirection"/>
+          <include name="config"/>
+          <include name="verify_BeneficiaryNames"/>
+          <include name="verify_taponLoginbutton"/>
+          <include name="verify_tapon_NEFTTransaction"/>
+          <include name="verify_DashboardpageRedirection"/>
+          <include name="verify_tapBeneficiaryDrpDownbox"/>
+          <include name="verify_UserAccountBalance"/>
+          <include name="verify_UserAccountNumber"/>
+        </methods>
+      </class> <!-- com.appModule.Signin_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
